@@ -10,11 +10,9 @@ public class Worker {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer id;
-
 	private String name;
-
 	private String branch;
-
+	
 	public Integer getId() {
 		return id;
 	}
@@ -38,4 +36,5 @@ public class Worker {
 	public void setBranch(String branch) {
 		this.branch = branch;
 	
+	}
 }
